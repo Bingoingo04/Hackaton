@@ -128,6 +128,10 @@ footer {
   align-items: center;
 }
 
+.links-container h1 {
+  font-size: 40px;
+}
+
 /* about */
 
 .links-container {
