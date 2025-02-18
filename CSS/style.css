@@ -59,12 +59,6 @@ header a {
   font-weight: bold;
 }
 
-.menuitems a.current {
-  /* transform: scale(1.2);
-  color: black;
-  font-weight: bold; */
-}
-
 .logo {
   height: 70%;
   display: flex;
@@ -205,7 +199,7 @@ footer {
 
 .contact-section {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 2rem;
   background: white;
   border-radius: 8px;
