@@ -8,7 +8,7 @@
 body {
   font-family: sans-serif;
   background: rgb(248, 248, 248);
-  padding: 0 15px;
+  /* padding: 0 15px; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@ header {
   justify-content: space-between;
   padding: 0 10%;
   z-index: 1000;
-  background: rgb(248, 248, 248);
+  background: rgb(255, 221, 0);
 }
 
 header a {
@@ -40,14 +40,15 @@ header a {
 
 .menuitems a {
   display: inline-block;
-  font-size: 12px;
-  color: rgb(129, 129, 129);
+  font-size: 20px;
+  color: rgb(0, 0, 0);
   transition: transform 0.5s;
   -webkit-transition: transform 0.5s;
   -moz-transition: transform 0.5s;
   -ms-transition: transform 0.5s;
   -o-transition: transform 0.5s;
 }
+
 .menuitems a:hover {
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
@@ -59,9 +60,9 @@ header a {
 }
 
 .menuitems a.current {
-  transform: scale(1.2);
+  /* transform: scale(1.2);
   color: black;
-  font-weight: bold;
+  font-weight: bold; */
 }
 
 .logo {
@@ -69,6 +70,7 @@ header a {
   display: flex;
   justify-content: center;
 }
+
 .logo img {
   object-fit: contain;
 }
@@ -122,6 +124,8 @@ footer {
   margin-top: 20px;
   line-height: 1.5;
   padding: 0px 50px;
+  color: rgb(0, 0, 0);
+  text-align: center;
 }
 
 /* about */
@@ -145,13 +149,17 @@ footer {
 
 .portal-item {
   background: white;
-  padding: 30px;
+  padding: 90px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
   cursor: pointer;
   position: relative;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .portal-item:hover {
@@ -159,7 +167,8 @@ footer {
 }
 
 .portal-item a {
-  display: flex; /* Gör länken till ett block-element så den tar hela ytan */
+  display: flex;
+  /* Gör länken till ett block-element så den tar hela ytan */
   position: absolute;
   top: 0;
   left: 0;
@@ -191,6 +200,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 /* Contact */
 
 .contact-section {
