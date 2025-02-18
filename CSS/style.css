@@ -222,7 +222,7 @@ footer {
 
 .section-title {
   font-size: 2rem;
-  color: rgb(15, 15, 222);
+  color: rgb(0, 0, 0);
   margin-bottom: 1.5rem;
 }
 
@@ -257,7 +257,7 @@ footer {
   padding: 1rem;
   font-size: 1.2rem;
   color: white;
-  background-color: rgb(15, 15, 222);
+  background-color: rgb(0, 0, 0);
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -265,7 +265,7 @@ footer {
 }
 
 .contact-form button:hover {
-  background-color: rgb(10, 10, 180);
+  background-color: rgb(0, 0, 0);
 }
 
 @media (max-width: 768px) {
